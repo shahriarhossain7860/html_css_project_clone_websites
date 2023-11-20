@@ -170,3 +170,64 @@ span {
     color: #0F1111;
     text-align: center;
 }
+.gift-list-details {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    }
+.gift-list-details-text {
+    margin-top: -5px;
+    margin-bottom: 5px;
+    background-color:white;
+    padding: 18px;
+    padding-right: 18px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+}
+.gift-list-details-text a {
+    list-style: none;
+    text-decoration: none;
+    color: #0F1111;
+}
+/* gift Request Section */
+.gift-request-section {
+    margin-top: 20px;
+}
+.gift-request-section img {
+    width: 100%;
+}
+.gift-registry-benefit {
+    margin: 24px;
+}
+.gift-registry-heading {
+    color: #0F1111;
+    font-size: 24px;
+    text-align: center;
+}
+ .gift-registry-benefit-options {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.gift-registry-icons {
+    width: 16%;
+}
+.gift-registry-icons img {
+    width: 33%;
+    transform: translate(97%, 0);
+}
+.gift-registry-section-text {
+    margin-top: 12px;
+}
+.gift-registry-heading-section {
+    color: #0F1111;
+    font-size: 12px;
+    text-align: center;
+}
+.gift-registry-description {
+    font-size: 14px;
+    color: #0F1111;
+    text-align: center;
+}
