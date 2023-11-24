@@ -349,3 +349,12 @@ span {
     gap: 20px;
 }
 }
+/* Amazon Web page cloning and responsive end */
+/* Another Webpage cloning and responsive start */
+.main {
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0, 0, 0, 0.5)50%),url('Images/pexels-pixabay-268533.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
