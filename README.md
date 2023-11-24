@@ -1,3 +1,4 @@
+![Capture](https://github.com/shahriarhossain7860/html_css_project_clone_websites/assets/85984078/8bbd6432-bd53-44b9-b971-2555fc9369dc)
 # html_css_project_clone_websites
 ## Cloned Amazon Web Page - HTML/CSS Project
 This repository contains my attempt at cloning the Amazon web page using HTML and CSS. While the aim was to replicate the structure and appearance of the original Amazon page, please note that there might be differences due to the learning process and not all functionalities might be implemented.
