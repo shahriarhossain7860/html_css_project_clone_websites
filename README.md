@@ -1,3 +1,4 @@
+![Capture](https://github.com/shahriarhossain7860/html_css_project_clone_websites/assets/85984078/74c635ea-7862-4aba-bea7-5f1f2b3ffdee)
 ![Capture](https://github.com/shahriarhossain7860/html_css_project_clone_websites/assets/85984078/8bbd6432-bd53-44b9-b971-2555fc9369dc)
 # html_css_project_clone_websites
 ## Cloned Amazon Web Page - HTML/CSS Project
