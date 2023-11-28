@@ -12,14 +12,15 @@
         <div class="navbar-5">
             <img src="Images/Playstation_Img/logo.png" class="logo-5" alt="">
             <nav class="menu-nav">
-                <ul>
+                <ul id="menuList">
                     <li class="menu-items"><a class="menu-links" href="#">Game Controller</a></li>
                     <li class="menu-items"><a class="menu-links" href="#">VR Accessories</a></li>
                     <li class="menu-items"><a class="menu-links" href="#">Media Remotes</a></li>
                     <li class="menu-items"><a class="menu-links" href="#">Others</a></li>
                 </ul>
             </nav>
-            <img src="Images/Playstation_Img/menu.png" class="menu-icon-2" alt="">
+            <img src="Images/Playstation_Img/menu.png" class="menu-icon-2"
+            onclick="togglemenu()" alt="">
         </div>
         <div class="row-2">
             <div class="col-1">
@@ -45,5 +46,18 @@
             <img src="Images/Playstation_Img/ig.png" alt="">
         </div>
     </div>
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+        function togglemenu() {
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "130px";
+            }
+            else {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
 </body>
 </html>

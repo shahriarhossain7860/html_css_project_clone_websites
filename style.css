@@ -796,6 +796,7 @@ background-image: url('Images/Desert Webpage Img/pic-4.png');
     width: 25px;
     cursor: pointer;
     filter: invert(100%);
+    display: none;
 }
 .menu-nav {
     margin-right: 30px;
@@ -898,3 +899,36 @@ background-image: url('Images/Desert Webpage Img/pic-4.png');
     width: 35px;
     margin-bottom: 5px;
 }
+.social-links {
+    text-align: center;
+}
+.social-links img {
+    height: 20px;
+    margin: 20px;
+    cursor: pointer;
+    filter: invert(100%);
+}
+/* Mobille Responsive */
+/* @media only screen and (max-width: 700px) {
+      .menu-nav ul {
+        width: 100%;
+        background: linear-gradient(to right, #ff54a2, #ff575a);
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+      }
+        .menu-nav ul li {
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+        }
+        .menu-icon-2 {
+            display: block;
+        }
+        #menuList {
+            overflow: hidden;
+            transition: 0.5s ease-in-out;
+        }
+} */
