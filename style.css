@@ -777,6 +777,9 @@ background-image: url('Images/Desert Webpage Img/pic-4.png');
     padding-left: 8%;
     padding-right: 8%;
     box-sizing: border-box;
+    background-image: url('Images/hexagonal-technology-pattern-mesh-background-with-text-space_1017-26293.jpg');
+    background-size: cover;
+    background-position: center;
     overflow: hidden;
 }
 .navbar-5 {
@@ -792,14 +795,10 @@ background-image: url('Images/Desert Webpage Img/pic-4.png');
 .menu-icon-2 {
     width: 25px;
     cursor: pointer;
+    filter: invert(100%);
 }
 .menu-nav {
     margin-right: 30px;
-}
-.menu-nav ul li a {
-    text-decoration: none;
-    color: #0F1111;
-    font-size: 14px;
 }
 .menu-nav ul li a:hover {
     color: #ff5ea2;
@@ -817,10 +816,11 @@ background-image: url('Images/Desert Webpage Img/pic-4.png');
     margin-left: 50px;
 }
 .col-1 h2 {
-    font-size: 54px;
+    font-size: 50px;
+    color: #ff7200;
 }
 .col-1 h3 {
-    font-size: 30px;
+    font-size: 25px;
     color: #707070;
     font-weight: 100;
     margin: 20px 0 10px;
@@ -833,4 +833,68 @@ background-image: url('Images/Desert Webpage Img/pic-4.png');
 .col-1 h4 {
     margin: 30px 0;
     font-size: 20px;
+    color: #cccccc;
+}
+.col-1 button {
+    width: 140px;
+    border: none;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, #fb5283, #ff3527);
+    border-radius: 6px;
+    cursor: pointer;
+}
+.col-1 button img {
+   width: 30px;
+   display: none;
+}
+.col-1 button:hover img {
+    display: block;
+}
+.col-1 button:hover {
+    width: 160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.col-1::after {
+    content: '';
+    width: 10px;
+    height: 57%;
+    background: linear-gradient(to right, #ff469f, #ff6062);
+    position: absolute;
+    left: -15%;
+    top: 1%;
+}
+.col-2 {
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+}
+.controller-2 {
+    width: 90%;
+    z-index: 1;
+}
+.color-box {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: linear-gradient(to right, #ff54a2, #ff575a);
+    border-radius: 20px 0 0 20px;
+    width: 80%;
+    height: 100%;
+    z-index: 0; 
+    transform: translateX(150px);
+}
+.add-btn {
+    transform: translate(15%, 270%);
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+.add-btn img {
+    width: 35px;
+    margin-bottom: 5px;
 }
