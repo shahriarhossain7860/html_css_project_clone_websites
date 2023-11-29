@@ -910,6 +910,9 @@ background-image: url('Images/Desert Webpage Img/pic-4.png');
 }
 /* Mobille Responsive */
  @media only screen and (max-width: 700px) {
+    .container-2 {
+        background-image: url('Images/still-life-seat-gamers_23-2149746568.jpg');
+    }
       .menu-nav ul {
         width: 100%;
         background: linear-gradient(to right, #ff54a2, #ff575a);
@@ -931,4 +934,36 @@ background-image: url('Images/Desert Webpage Img/pic-4.png');
             overflow: hidden;
             transition: 0.5s ease-in-out;
         }
+        .row-2 {
+            flex-direction: column-reverse;
+            margin: 50px 0;
+        }
+        .col-2 {
+            flex-basis: 100%;
+            margin-bottom: 50px;
+        }
+       .col-2 .controller-2 {
+            width: 77%;
+        }
+        .color-box {
+            transform: translateX(75px);
+        }
+        .add-btn {
+            transform: translate(12%, 140%);
+        }
+        .col-1 {
+            flex-basis: 100%;
+        }
+        .col-1 h2 {
+            font-size: 35px;
+        } 
+        .col-1 h3 {
+            font-size: 15px;
+    }
 } 
+@media only screen and (max-width: 400px) {
+    .add-btn {
+        transform: translate(12%, 78%);
+    }
+    
+}
