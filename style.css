@@ -909,7 +909,7 @@ background-image: url('Images/Desert Webpage Img/pic-4.png');
     filter: invert(100%);
 }
 /* Mobille Responsive */
-/* @media only screen and (max-width: 700px) {
+ @media only screen and (max-width: 700px) {
       .menu-nav ul {
         width: 100%;
         background: linear-gradient(to right, #ff54a2, #ff575a);
@@ -931,4 +931,4 @@ background-image: url('Images/Desert Webpage Img/pic-4.png');
             overflow: hidden;
             transition: 0.5s ease-in-out;
         }
-} */
+} 
